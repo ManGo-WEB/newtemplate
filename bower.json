@@ -1,0 +1,22 @@
+{
+  "name": "templ.loc",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ReFrog Lab"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "srs/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.4.0",
+    "bootstrap": "^4.3.1"
+  }
+}
