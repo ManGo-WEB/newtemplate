@@ -13,6 +13,31 @@ const imageminPngquant = require('imagemin-pngquant');
 const imagemin = require('gulp-imagemin');
 const rimraf = require('rimraf');
 
+const path = {
+    build: { //Куда складывать файлы после сборки
+        html: 'build/',
+        js: 'build/js/',
+        css: 'build/css/',
+        img: 'build/img/',
+        fonts: 'build/fonts/',
+    },
+    src: { //Откуда брать исходники
+        html: 'src/',
+        js: 'src/js/',
+        css: 'src/scss/',
+        img: 'src/img/',
+        fonts: 'src/fonts/',
+    },
+    watch: { //Наблюдать за изменениями
+        html: 'src/**/*.html',
+        js: 'src/js/**/*.js',
+        css: 'src/scss/**/*.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*',
+    },
+    clean: './build'
+};
+
 
 
 
